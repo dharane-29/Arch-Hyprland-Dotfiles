@@ -1,0 +1,236 @@
+@import "/home/dharane/.cache/wal/colors-rofi-dark.rasi"
+configuration {
+    modi: "drun";
+    show-icons: true;
+    display-drun: "";
+}
+listview {
+    columns: 1;
+    lines: 7;
+    fixed-height: true;
+    fixed-columns: true;
+    cycle: false;
+    scrollbar: false;
+    border: 0px solid;
+}
+
+* {
+    font: "Figtree 17";
+    g-spacing: 20px;
+    g-margin: 2;
+    b-color: #000000FF;
+    fg-color: #FFFFFFFF;
+    fgp-color: #888888FF;
+    b-radius: 15px;
+    g-padding: 8px;
+    hl-color: #FFFFFFFF;
+    hlt-color: #000000FF;
+    alt-color: #111111FF;
+    wbg-color: #000000CC;
+    w-border: 0px;
+    w-border-color: #ffffffff;
+    w-padding: 0px;
+}
+window {
+    transparency: "real";
+    width: 750px;
+    border-radius: @b-radius;
+    background-color: @active-background;
+    border: @w-border;
+    border-color: @active-background;
+    padding: @w-padding;
+}
+prompt {
+    text-color: @foreground;
+}
+inputbar {
+    children: ["prompt", "entry"];
+    spacing: @g-spacing;
+}
+entry {
+    placeholder: "Search Apps";
+    text-color: @foreground;
+    placeholder-color: @foreground;
+}
+mainbox {
+    border-radius: @b-radius;
+    spacing: @g-spacing;
+    margin: @g-margin;
+    padding: @g-padding;
+    children: ["inputbar", "listview", "message"];
+}
+element {
+    spacing: @g-spacing;
+    margin: @g-margin;
+    padding: @g-padding;
+    border: 0px solid;
+    border-radius: @b-radius;
+    border-color: @active-background;
+    background-color: transparent;
+    text-color: @foreground;
+}
+element normal.normal {
+	background-color: transparent;
+	text-color: @foreground;
+}
+element alternate.normal {
+	background-color: @background;
+	text-color: @foreground;
+}
+element selected.active {
+	background-color: @active-background;
+	text-color: @foreground;
+}
+element selected.normal {
+	background-color: @active-background;
+	text-color: @foreground;
+}
+message {
+    background-color: @active-background;
+    border: 0px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
