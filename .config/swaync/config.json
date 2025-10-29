@@ -52,13 +52,18 @@
           "command": "blueman-manager",
           "tooltip": "Bluetooth"
         },
-        {
+      {
           "label": "󰂛",
           "command": "swaync-client -d",
           "type": "toggle",
           "tooltip": "DND"
         },
-                {
+       {
+          "label": "",
+          "command": "obsidian",
+          "tooltip": "notes"
+        },
+            {
           "label": "",
           "command": "hyprlock",
           "tooltip": "Lock"
